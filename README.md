@@ -24,7 +24,6 @@ cd openssl_logger
 ```
 3. Compile the program using the provided Makefile:
 
-The log file is located in /tmp/ssl_traffic. You can change it in the C Source. 
 
 ```
 make
