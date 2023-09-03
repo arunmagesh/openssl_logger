@@ -6,7 +6,8 @@ This program captures and logs SSL/TLS communication between a client and server
 
 Before you begin, ensure you have the following prerequisites installed on your system:
 
-- [OpenSSL](https://www.openssl.org/): Ensure that OpenSSL is installed on your system. You can check if it's available by running `openssl version` in your terminal.
+- [OpenSSL](https://www.openssl.org/): Ensure that OpenSSL is installed on your system by using `sudo apt install openssl-dev`.  You can check if it's available by running `openssl version` in your terminal.
+- You can use it to compile for other architecture but you need openssl-dev compiled for that arcitecture and it is easier to use a qemu instance of other architecture to build the binary. 
 
 ## How to Use
 
