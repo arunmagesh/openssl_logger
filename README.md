@@ -23,6 +23,8 @@ cd openssl_logger
 ```
 3. Compile the program using the provided Makefile:
 
+The log file is located in /tmp/ssl_traffic. You can change it in the C Source. 
+
 ```
 make
 ```
@@ -38,7 +40,7 @@ Replace ./your_application with the actual command used to run your application 
 
 The SSL/TLS communication between your application and the server will be captured and logged to a file named ssl_traffic.log in the current directory.
 
-##Testing with Google.com
+## Testing with Google.com
 
 To test the program with a real HTTPS endpoint like Google.com:
 
@@ -60,17 +62,17 @@ Host: www.google.com
 ```
 
 
-##Analyzing the Log
+## Analyzing the Log
 
 Simply open the ssl_traffic.log file.
 
-##Cleanup
+## Cleanup
 
 To clean up generated files:
 
 ```
 make clean
 ```
-##License
+## License
 
 This project is licensed under the MIT License.
